@@ -27,5 +27,6 @@ function maxThreeCalories(filename){
 
 }
 
-console.log(maxCalories("day1_file.txt"));
-console.log(maxThreeCalories("day1_file.txt"));
+console.log("If we consider the complete input (given by AOC and available on my github):");
+console.log("The answer to the first part is: %d", maxCalories("day1_file.txt"));
+console.log("The answer to the second part is: %d", maxThreeCalories("day1_file.txt"));

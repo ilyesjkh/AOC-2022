@@ -2,7 +2,6 @@ const { readFileSync, promises: fsPromises } = require('fs');
 
 function partOne(filename){
     const RPSClashes = readFileSync(filename, 'utf-8').split("\n");
-    console.log(RPSClashes);
     let score = 0;
     const outcomePoints = {win:6, draw:3, loss:0};
     const shapesPoints = {rock:1, paper:2, scissors:3};
@@ -20,7 +19,7 @@ function partOne(filename){
                 score += outcomePoints.win + shapesPoints.paper;
             }
         }
-        else if(mMove == "Y"){
+        else if(myMove == "Y"){
             if(opponnentsMove == "A"){
                 score += outcomePoints.win + shapesPoints.paper;
             }
@@ -48,7 +47,6 @@ function partOne(filename){
 
 function partTwo(filename){
     const RPSClashes = readFileSync(filename, 'utf-8').split("\n");
-    console.log(RPSClashes);
     let score = 0;
     const outcomePoints = {win:6, draw:3, loss:0};
     const shapesPoints = {rock:1, paper:2, scissors:3};
@@ -93,4 +91,6 @@ function partTwo(filename){
     return score;
 }
 
-console.log(partTwo("day2_input.txt"));
+console.log("If we consider the complete input (given by AOC and available on my github):");
+console.log("The answer to the first part is: %d", partOne("day2_input.txt"));
+console.log("The answer to the second part is: %d", partTwo("day2_input.txt"));

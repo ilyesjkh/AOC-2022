@@ -9,8 +9,6 @@ function partOne(filename){
         Pairs.push({first: {start: parseInt(elvesSections[0].split("-")[0]), end: parseInt(elvesSections[0].split("-")[1])}, 
         second: {start: parseInt(elvesSections[1].split("-")[0]), end: parseInt(elvesSections[1].split("-")[1])} });
         let ElfsSections = {first: "", second: ""};
-        console.log(Pairs[i].first.start);
-        console.log(Pairs[i].first.end);
         for(let k = Pairs[i].first.start; k <= Pairs[i].first.end; k++){
             ElfsSections.first += "-" + k.toString() + "-";
         }
@@ -26,8 +24,6 @@ function partOne(filename){
                 count ++;
             }
         }
-    console.log(ElfsSections.first);
-    console.log(count);
     }
     return count;
     
@@ -64,4 +60,6 @@ function partTwo(filename){
     
 }
 
-console.log(partTwo("day4_input.txt"));
+console.log("If we consider the complete input (given by AOC and available on my github):");
+console.log("The answer to the first part is: %d", partOne("day4_input.txt"));
+console.log("The answer to the second part is: %d", partTwo("day4_input.txt"));

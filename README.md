@@ -99,6 +99,8 @@ I did not have time to do much AOC this week because of a lot of school work. No
 
 ## [Day 24: ](https://adventofcode.com/2022/day/24)
 
+This problem had me learn a lot of things, yet my code does not work yet. I first tried to implement Dijsktra algorithm to find the sshortest path but I really struggled to make it worked and looked for another algorithm that works on unweighted graphs. I choose to implement a BFS algorithm but it still does not work for some reason. I am still trying to solve this problem.
+
 
 ## [Day 25: ](https://adventofcode.com/2022/day/25)
 

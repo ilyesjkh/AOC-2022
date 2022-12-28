@@ -99,7 +99,8 @@ I did not have time to do much AOC this week because of a lot of school work. No
 
 ## [Day 24: ](https://adventofcode.com/2022/day/24)
 
-This problem had me learn a lot of things, yet my code does not work yet. I first tried to implement Dijsktra algorithm to find the sshortest path but I really struggled to make it worked and looked for another algorithm that works on unweighted graphs. I choose to implement a BFS algorithm but it still does not work for some reason. I am still trying to solve this problem.
+This problem had me learn a lot of things. I first tried to implement Dijsktra's algorithm to find the shortest path but I really struggled to make it work, it took me a lot of time for no result (but I discovered this interesting algorithm for shortest path finding) so I looked for another algorithm that works on unweighted graphs. I chose to implement a BFS algorithm. I struggled to make it work and it took me a long time not because it was a very difficult algorithm to implement but because of a lot of small mistakes and bugs I had to find (my code worked for the test input but not the real input...). I eventually figured out the issue (I was not considering not to move as a possible move if other moves were possible. It was considered only if it was not possible to move.) and the second part was quite easy after that. 
+I could really optimize my program. It is quite slow and I could make it way better but now that I solved the problem I prefere to solve another one.
 
 
 ## [Day 25: ](https://adventofcode.com/2022/day/25)

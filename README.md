@@ -88,6 +88,7 @@ I did not have time to do much AOC this week because of a lot of school work. No
 
 ## [Day 21: ](https://adventofcode.com/2022/day/21)
 
+I really enjoyed this problem. Not much difficulty for the first part. Still trying to figure out how to make my part2 work. I'm chose not to make a tree data structure. For the second part, I am trying extract the equation and write it as a String and then solve it thanks to nerdamer, a javascript tool that can solve equations. I'll update and push part two when I succeed/find time to.
 
 
 ## [Day 22: ](https://adventofcode.com/2022/day/22)
